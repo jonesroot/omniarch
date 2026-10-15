@@ -1,0 +1,50 @@
+Chat Suite v2.0.0 — Cara Pakai (Arch Linux)
+================================================
+By lucifer. File .bin ini hasil compile, kode sumbernya tidak disertakan.
+
+SYARAT
+- Arch Linux (atau turunannya: EndeavourOS, Manjaro, dll), x86_64
+- Koneksi internet + password sudo
+- Terminal (contoh: konsole, gnome-terminal, kitty)
+
+CARA JALAN
+1. Buka terminal di folder ini.
+2. Jalankan installer:
+     ./install-chat-suite.bin
+   Pilih menu pakai panah/keyboard, contoh:
+     1 = install app (WhatsApp, Telegram, Spotify, Steam, ...)
+     8 = cek kesehatan sistem (doctor)
+     6 = update semua paket
+3. Uninstaller (kalau mau hapus app):
+     ./uninstall-chat-suite.bin
+   Waktu hapus ada pilihan:
+     keep  = app dihapus, data/login dipertahankan
+     purge = app + data dihapus bersih (dibackup otomatis dulu)
+
+CATATAN
+- Saat install paket AUR (Signal, Ferdium, ZapZap, ...), kalau
+  yay/paru belum ada akan ditawarin install otomatis.
+- Sebelum update sistem, kalau ada snapper/timeshift akan
+  ditawarin bikin snapshot dulu.
+- Riwayat aksi tersimpan di:
+     ~/.local/share/chat-suite/chat-suite.log
+- Backup data otomatis ada di:
+     ~/.local/share/chat-suite/backups/
+
+PENGATURAN (opsional, file ~/.config/chat-suite.conf)
+  THEME=default
+  UNINSTALL_MODE=keep
+
+UPDATE
+- Tiap buka menu, skrip otomatis cek update (maks 1x sehari,
+  butuh internet, repo: github.com/jonesroot/chat-suite).
+- Kalau ada versi baru muncul tawaran:
+     "Update tersedia: vX → vY. Mau update biar pengalaman terbaik?"
+- File update diverifikasi checksum dulu sebelum dipasang.
+  Kalau checksum tidak cocok, update DIBATALKAN demi keamanan.
+
+KEAMANAN
+- Skrip ini jalanin sudo pacman — hanya pakai file dari sumber
+  yang kamu percaya (minta langsung ke author).
+- Cek keaslian file: cocokkan sha256sum dengan SHA256SUMS:
+     sha256sum -c SHA256SUMS
