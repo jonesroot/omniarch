@@ -1,2 +1,4 @@
-bfd4c692380fa7af26aa235611509773c5528f54a948ddad979ab9c22ef78079  ./install-chat-suite.bin
-aa39531aae9026c81c08ed1a2ffeec10f052a4b9821f1606593ee7775b7979a2  ./uninstall-chat-suite.bin
+bcf7c1c172a78ed8c78259318a03513cc57005c913a12b9ec6d91395d625eb5f  ./install-chat-suite.bin
+bcf7c1c172a78ed8c78259318a03513cc57005c913a12b9ec6d91395d625eb5f  ./install-omniarch.bin
+20dd70c05dd16456e9138e70a26f84e74c50ccd07b916fe407ce541bfab6e8e9  ./uninstall-chat-suite.bin
+20dd70c05dd16456e9138e70a26f84e74c50ccd07b916fe407ce541bfab6e8e9  ./uninstall-omniarch.bin

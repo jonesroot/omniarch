@@ -1,4 +1,4 @@
-Chat Suite v2.1.0 — Cara Pakai (Arch Linux)
+OmniArch v2.1.0 — Cara Pakai (Arch Linux)
 ================================================
 By lucifer. File .bin ini hasil compile, kode sumbernya tidak disertakan.
 
@@ -10,19 +10,19 @@ SYARAT
 CARA JALAN
 1. Buka terminal di folder ini.
 2. Jalankan installer:
-     ./install-chat-suite.bin
+     ./install-omniarch.bin
    Pilih menu pakai panah/keyboard, contoh:
      1 = install app (WhatsApp, Telegram, Spotify, Steam, ...)
      8 = cek kesehatan sistem (doctor)
      6 = update semua paket
 3. Uninstaller (kalau mau hapus app):
-     ./uninstall-chat-suite.bin
+     ./uninstall-omniarch.bin
    Waktu hapus ada pilihan:
      keep  = app dihapus, data/login dipertahankan
      purge = app + data dihapus bersih (dibackup otomatis dulu)
 4. Launcher app menu (opsional, biar nggak buka terminal):
    di installer pilih menu 11 (Install launcher) — nanti muncul
-   "Chat Suite Installer/Uninstaller" di app menu.
+   "OmniArch Installer/Uninstaller" di app menu.
 
 CATATAN
 - Saat install paket AUR (Signal, Ferdium, ZapZap, ...), kalau
@@ -34,13 +34,13 @@ CATATAN
 - Backup data otomatis ada di:
      ~/.local/share/chat-suite/backups/
 
-PENGATURAN (opsional, file ~/.config/chat-suite.conf)
+PENGATURAN (opsional, file ~/.config/omniarch.conf)
   THEME=default
   UNINSTALL_MODE=keep
 
 UPDATE
 - Tiap buka menu, skrip otomatis cek update (maks 1x sehari,
-  butuh internet, repo: github.com/jonesroot/chat-suite).
+  butuh internet, repo: github.com/jonesroot/omniarch).
 - Kalau ada versi baru muncul tawaran:
      "Update tersedia: vX → vY. Mau update biar pengalaman terbaik?"
 - File update diverifikasi checksum dulu sebelum dipasang.
