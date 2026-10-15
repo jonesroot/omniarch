@@ -12,7 +12,8 @@ CARA JALAN
 2. Jalankan installer:
      ./install-omniarch.bin
    Pilih menu pakai panah/keyboard, contoh:
-     1 = install app (WhatsApp, Telegram, Spotify, Steam, ...)
+     1 = install app — pilih kategori dulu (Chat/Office/System/
+         Media/Games/Semua), baru centang app-nya
      8 = cek kesehatan sistem (doctor)
      6 = update semua paket
 3. Uninstaller (kalau mau hapus app):
