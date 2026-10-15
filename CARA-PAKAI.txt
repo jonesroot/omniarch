@@ -1,4 +1,4 @@
-Chat Suite v2.0.0 — Cara Pakai (Arch Linux)
+Chat Suite v2.1.0 — Cara Pakai (Arch Linux)
 ================================================
 By lucifer. File .bin ini hasil compile, kode sumbernya tidak disertakan.
 
@@ -20,6 +20,9 @@ CARA JALAN
    Waktu hapus ada pilihan:
      keep  = app dihapus, data/login dipertahankan
      purge = app + data dihapus bersih (dibackup otomatis dulu)
+4. Launcher app menu (opsional, biar nggak buka terminal):
+   di installer pilih menu 11 (Install launcher) — nanti muncul
+   "Chat Suite Installer/Uninstaller" di app menu.
 
 CATATAN
 - Saat install paket AUR (Signal, Ferdium, ZapZap, ...), kalau
